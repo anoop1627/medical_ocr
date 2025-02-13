@@ -11,25 +11,25 @@ The **Medical OCR Project** automates text extraction from scanned medical docum
 - **readme.md**: Provides an overview and instructions for the project.
 
 ##  Features
- Converts PDFs to images using `pdf2image`  
- Enhances image clarity with **adaptive thresholding** (`OpenCV`)  
- Extracts text using `pytesseract` (Tesseract OCR)  
- Uses **regex** to extract structured data  
- Supports both **prescription and patient details extraction**  
- API tested with **Postman**  
+ - Converts PDFs to images using `pdf2image`  
+ - Enhances image clarity with **adaptive thresholding** (`OpenCV`)  
+ - Extracts text using `pytesseract` (Tesseract OCR)  
+ - Uses **regex** to extract structured data  
+ - Supports both **prescription and patient details extraction**  
+ - API tested with **Postman**  
 
 ##  Technologies Used
-- `opencv-python` 🖼️ (Image Processing)  
-- `Pillow` 🖌️ (Image Manipulation)  
-- `pdf2image` 📄 (PDF to Image Conversion)  
-- `pytesseract` 🔍 (OCR Text Extraction)  
-- `re` 🔡 (Regex for Structured Text Extraction)  
+- `opencv-python`  (Image Processing)  
+- `Pillow`  (Image Manipulation)  
+- `pdf2image`  (PDF to Image Conversion)  
+- `pytesseract`  (OCR Text Extraction)  
+- `re`  (Regex for Structured Text Extraction)  
 
 ##  Installation
 1. **Clone the repository:**
    ```bash
-   git clone <repo-link>
+   git clone https://github.com/anoop1627/medical_ocr
    cd medical-ocr
 2. **Install dependencies:**
-   '''bash
+   ```bash
    pip install -r requirements.txt
